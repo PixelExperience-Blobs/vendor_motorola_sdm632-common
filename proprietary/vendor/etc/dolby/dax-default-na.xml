@@ -202,7 +202,7 @@
         <surround-decoder-enable value="true" />
         <surround-boost value="96" />
         <volmax-boost value="104" />
-        <volume-leveler-enable value="true" />
+        <volume-leveler-enable value="false" />
         <volume-leveler-amount value="0" />
         <volume-leveler-in-target value="-320" />
         <volume-leveler-out-target value="-320" />
