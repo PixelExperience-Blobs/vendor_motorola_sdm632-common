@@ -213,17 +213,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "motorola",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "daxService",
 	owner: "motorola",
 	apk: "proprietary/priv-app/daxService/daxService.apk",
@@ -300,12 +289,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "motorola",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
